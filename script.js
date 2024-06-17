@@ -76,7 +76,7 @@ function switchPlayer() {
     if (player == "X") {
         player = "0";
     } else {
-        player = "X"; // or "player = player == "X" ? "0" : "X";
+        player = "X";
     }
     document.getElementById('player').textContent = player;
 }
