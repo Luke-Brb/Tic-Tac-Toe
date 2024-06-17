@@ -1,0 +1,1 @@
+It is a game for two players who take turns marking the spaces in a three-by-three grid with X's or O's. The player who succeeds in placing three of their marks in a horizontal, vertical or diagonal row is the winner.
