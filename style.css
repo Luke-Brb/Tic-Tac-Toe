@@ -1,13 +1,15 @@
-h1{
+h1 {
     text-align: center;
     font-family: 'Londrina Shadow', cursive;
 }
+
 body {
     margin: 0;
     padding: 0;
     background-color: rgba(153, 107, 9, 0.5);
 }
-.container{ 
+
+.container { 
     width:210px;
     height:20vh;
     margin:5rem auto;
@@ -19,7 +21,8 @@ body {
     text-align: center;
     font-size: 3rem;
 }
-.container div{
+
+.container div {
     color: black;
     border-bottom: 3px solid rgb(23, 23, 23);
     border-right:  3px solid rgb(23, 23, 23);
@@ -27,16 +30,20 @@ body {
     height: 70px;
     cursor: pointer;
 }
+
 .container div:hover {
     background-color: #d6cfa0;
 }
-.container div[c="2"]{
+
+.container div[c = "2"] {
     border-right: none;
 }
-.container div[l="2"]{
+
+.container div[l = "2"] {
     border-bottom: none;
 }
-button{
+
+button {
     display: block;
     min-width: 100px;
     margin:0 auto;
